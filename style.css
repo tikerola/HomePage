@@ -138,8 +138,6 @@ body {
 	margin-right: 1.5rem;
 	height: auto;
 	filter: drop-shadow(1px 2px 10px gray);
-
-	border-radius: 20%;
 }
 
 .image-container p {
@@ -184,8 +182,20 @@ body {
 
 .contact-icon {
 	margin-right: 1rem;
+	font-size: 1.5rem;
 }
 
 .border-thin {
-	border: 1px solid #555;
+	border: 1px solid #333;
+}
+
+.ml-20 {
+	margin-left: 20%;
+}
+
+.experience-paragraph strong {
+	display: inline-block;
+	width: 70px;
+	color: #777;
+	font-size: 1.2rem;
 }
