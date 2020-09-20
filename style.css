@@ -11,6 +11,42 @@ html {
 body {
 	margin: 0;
 	background-color: black;
+	color: #aaa;
+}
+
+.navigation {
+	width: 100%;
+	background-image: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.5));
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	color: white;
+	z-index: 1;
+	padding: 0.7rem 0.7rem 0.7rem 10%;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-right: 1.2rem;
+}
+
+.navigation li:first-child {
+	font-size: 1.5rem;
+	margin-right: 3rem;
+}
+
+.home-icon {
+	color: #777;
+}
+
+.navigation a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #fff;
 }
 
 .page-banner {
@@ -22,33 +58,6 @@ body {
 	background-size: cover;
 	position: relative;
 	border-bottom: 1px solid #333;
-}
-
-.page-banner__nav {
-	display: inline-block;
-	background-image: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.5));
-	position: fixed;
-	top: 0;
-	left: 0;
-	margin: 0;
-	width: 100%;
-	color: white;
-
-	padding: 1rem 1rem 1rem 15%;
-}
-
-.page-banner__nav li {
-	display: inline-block;
-	margin-right: 1.2rem;
-}
-
-.page-banner__nav a {
-	color: #ddd;
-	text-decoration: none;
-}
-
-.page-banner__nav a:hover {
-	color: #fff;
 }
 
 .page-banner__title {
@@ -85,23 +94,98 @@ body {
 	font-size: 3rem;
 }
 
-.welcome {
+.section-title {
 	width: 70%;
 	margin: 2rem auto;
 	margin-bottom: 0;
 	color: #aaa;
 }
 
+.anchor {
+	position: relative;
+	top: -75px;
+}
+
 .content-container {
 	margin: 1rem auto;
+	padding: 1rem;
 	width: 70%;
+
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+.divider {
+	width: 30%;
+	margin: 0.5rem auto 20vh auto;
+	border-bottom: 1px solid #555;
 }
 
 .content-container__paragraph {
 	width: 45%;
 	color: #aaa;
 	text-align: justify;
+}
+
+.image-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.image-container img {
+	width: 150px;
+	margin-right: 1.5rem;
+	height: auto;
+	filter: drop-shadow(1px 2px 10px gray);
+
+	border-radius: 20%;
+}
+
+.image-container p {
+	margin: 0;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.skills-icon {
+	display: inline-block;
+	width: 2.3rem;
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+	margin-left: 35%;
+}
+
+.skills-list-item {
+	margin-left: 20%;
+	margin-bottom: 1rem;
+}
+
+.portfolio img {
+	width: 45%;
+	margin-right: 2rem;
+}
+
+.portfolio__item {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2rem;
+}
+
+.section-subtitle {
+	width: 60%;
+	margin: 2rem auto;
+	margin-bottom: 0;
+	color: #aaa;
+}
+
+.contact-icon {
+	margin-right: 1rem;
+}
+
+.border-thin {
+	border: 1px solid #555;
 }

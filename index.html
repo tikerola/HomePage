@@ -10,18 +10,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/0b70574ce2.js" crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
 <body>
-  <header class="page-banner">
-    <nav>
-      <ul class="page-banner__nav">
-        <li><a href="#">Bio</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Misc</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#main"><i class="fas fa-home home-icon"></i></a></li>
+      <li><a href="#bio">Bio</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#misc">Misc</a></li>
+    </ul>
+  </nav>
+  <header class="page-banner" id="main">
     <div class="page-banner__title">
       a Programmer - up for hire
       <div />
@@ -34,8 +37,10 @@
     <i class="fab fa-css3-alt icons"></i>
   </section>
 
-  <h2 class="welcome">Welcome</h2>
 
+  <!-- WELCOME -->
+  <div class="anchor" id="main"></div>
+  <h2 class="section-title">Welcome</h2>
   <section class="content-container">
     <div class="content-container__paragraph">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -47,8 +52,131 @@
       standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
       type specimen book.
     </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- BIO -->
+  <div class="anchor" id="bio"></div>
+  <h2 class="section-title">Bio</h2>
+  <section class="content-container">
+    <div>
+      <div class="image-container">
+        <img src="/images/uusi.png" alt="My Photo">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+          make a
+          type specimen book.
+        </p>
+      </div>
 
   </section>
+
+
+  <div class="divider"></div>
+
+  <!-- SKILLS -->
+  <div class="anchor" id="skills"></div>
+  <h2 class="section-title">Skills</h2>
+  <h3 class="section-subtitle">Stronger Skills</h3>
+  <section class="content-container">
+    <div class="content-container__paragraph flex-col">
+      <div><i class="fab fa-js-square skills-icon"></i>Javascript</div>
+      <div><i class="fab fa-react icons skills-icon"></i>React</div>
+      <div><i class="fab fa-node skills-icon"></i>Node</div>
+      <div><i class="fab fa-html5 skills-icon"></i>HTML5</div>
+      <div><i class="fab fa-css3-alt skills-icon"></i>CSS3</div>
+    </div>
+    <div class="content-container__paragraph flex-col">
+      <div class="skills-list-item">Typescript</div>
+      <div class="skills-list-item">MySQL</div>
+      <div class="skills-list-item">MongoDB</div>
+      <div class="skills-list-item">Jest</div>
+      <div class="skills-list-item">Mocha</div>
+    </div>
+  </section>
+
+  <h3 class="section-subtitle">Weaker Skills</h3>
+  <section class="content-container">
+    <div>
+      Python, Java, Php, React Native, GraphQL, Docker, Kubernetes, Microservices, AWS, WordPress, Travis CI
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PORTFOLIO -->
+
+  <div class="anchor" id="portfolio"></div>
+  <h2 class="section-title">Portfolio</h2>
+  <section class="content-container flex-col portfolio">
+    <div class="portfolio__item">
+      <img src="images/deitti.png" alt="deitti-app" />
+      <p>
+        Dating site with basic features: creating and updating profiles, profile search,
+        messaging, chat etc. Frontend was created with React, server with Node and Express, database was MongoDb and
+        images were saved to Cloudinary. Repository can be found below, right next to GitHub-title. The site itself can
+        be found here: https://love-app777.herokuapp.com/
+      </p>
+    </div>
+
+    <div class="portfolio__item">
+      <img src="images/guitar.png" alt="guitar-app" />
+      <p>
+        Dating site with basic features: creating and updating profiles, profile search,
+        messaging, chat etc. Frontend was created with React, server with Node and Express, database was MongoDb and
+        images were saved to Cloudinary. Repository can be found below, right next to GitHub-title. The site itself can
+        be found here: https://love-app777.herokuapp.com/
+      </p>
+    </div>
+
+    <div class="portfolio__item">
+      <img src="images/bus-stops.png" alt="bus-stops-app" class="border-thin" />
+      <p>
+        Dating site with basic features: creating and updating profiles, profile search,
+        messaging, chat etc. Frontend was created with React, server with Node and Express, database was MongoDb and
+        images were saved to Cloudinary. Repository can be found below, right next to GitHub-title. The site itself can
+        be found here: https://love-app777.herokuapp.com/
+      </p>
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+
+  <div class="anchor" id="contact"></div>
+  <h2 class="section-title">Contact</h2>
+  <section class="content-container">
+    <div>
+      <i class="far fa-envelope contact-icon"></i><span>timo.kerola777@gmail.com</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- MISC -->
+  <div class="anchor" id="misc"></div>
+  <h2 class="section-title">Misc</h2>
+  <section class="content-container">
+    <div class="content-container__paragraph">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+      a
+      type specimen book.
+    </div>
+    <div class="content-container__paragraph">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+      a
+      type specimen book.
+    </div>
+  </section>
+
+  <div class="divider"></div>
 
 </body>
 
