@@ -22,7 +22,7 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="#misc">Misc</a></li>
+      <!-- <li><a href="#misc">Misc</a></li> -->
     </ul>
   </nav>
   <header class="page-banner" id="main">
@@ -68,12 +68,28 @@
     <div>
       <div class="image-container">
         <img src="/images/uusi.png" alt="My Photo">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a
-          type specimen book.
+        <div>
+          <p>
+        I first got into programming way back when I was studying material science at
+          Helsinki University of Technology. I had a brief introduction to Java, C/C++ and Visual Basic and
+          I liked it immensely. At the time - when my main studies were something completely different - it did
+          not even cross my mind, though, that I could some day maybe make money with programming. So I continued studying
+          what I had originally planned and eventually just gave up on writing code.
         </p>
+          <p>
+          The excuses are plentiful. My time was limited and
+          network thin. The resources didn't feel limitless like they do now. I had no clear image where to go next, ...and so on. The good thing is, I got to experience the fun of programming again later.
+          </p>
+          <p>
+            Two years back - after once again thinking about my and perhaps everyone's favorite question: 'What am I going to do with my life' - I had
+            an idea that maybe there is some good online material about programming and after a little refresher, could there be any place for me to study towards becoming a professional.
+          </p>
+          
+          <p>
+            I found Java MOOC (Massive Open Online Course) and Helsinki Business College and here I am,
+            looking to apply my knowledge for someone's benefit.
+          </p>
+          </div>
       </div>
 
   </section>
@@ -89,15 +105,15 @@
   <section class="content-container ml-20">
     <div>
       <p class="experience-paragraph">
-        <strong>Where:</strong> Aksios Corporation Oy
+        <span>Where:</span> Aksios Corporation Oy
       </p>
       <p class="experience-paragraph">
-        <strong>When:</strong> 20.01.2020 – 20.04.2020
+        <span>When:</span> 20.01.2020 – 20.04.2020
         <p class="experience-paragraph">
-          <strong>Role:</strong> Internship as a fullstack developer with company’s Sitro.net – SaaS product.
+          <span>Role:</span> Internship as a fullstack developer with company’s Sitro.net – SaaS product.
         </p>
         <p class="experience-paragraph">
-          <strong>Stack:</strong> Javascript, React, PHP and MySQL.
+          <span>Stack:</span> Javascript, React, PHP and MySQL.
         </p>
       </p>
 
@@ -108,6 +124,7 @@
   <div class="divider"></div>
 
   <!-- SKILLS -->
+
   <div class="anchor" id="skills"></div>
   <h2 class="section-title">Skills</h2>
   <h3 class="section-subtitle">Stronger Skills</h3>
@@ -131,7 +148,7 @@
   <h3 class="section-subtitle">Weaker Skills</h3>
   <section class="content-container">
     <div>
-      Python, Java, Php, React Native, GraphQL, Docker, Kubernetes, Microservices, AWS, WordPress, Travis CI
+      Python, Java, Php, React Native, GraphQL, Docker, Kubernetes, Microservices, AWS, WordPress, Travis CI, Cypress, React Testing Library
     </div>
 
   </section>
@@ -145,42 +162,76 @@
   <section class="content-container flex-col portfolio">
     <div class="portfolio__item">
       <img src="images/deitti.png" alt="deitti-app" />
-      <p>
-        Dating site with basic features: creating and updating profiles, profile search,
-        messaging, chat etc. Frontend was created with React, server with Node and Express, database was MongoDb and
-        images were saved to Cloudinary. Repository can be found below, right next to GitHub-title. The site itself can
-        be found here: https://love-app777.herokuapp.com/
+      <div>
+        <p>
+        <span>Features:</span> Dating site includes creating and updating profiles, profile search,
+        messaging, chat etc. 
       </p>
+      <p>
+        <span>Stack:</span> React, Node, Express, MongoDb, Cloudinary, React Testing Library,
+        Supertest, Jest, Cypress 
+      </p>
+      <p>
+        <span>Repo:</span> <a href="https://github.com/tikerola/dating-app">dating-app</a>
+      </p>
+      <p>
+        <span>Online:</span> <a href="https://love-app777.herokuapp.com/">Heroku</a>
+      </p>
+      </div>
     </div>
 
     <div class="portfolio__item">
       <img src="images/analyze.png" alt="analyze-app" class="border-thin" />
-      <p>
-        Dating site with basic features: creating and updating profiles, profile search,
-        messaging, chat etc. Frontend was created with React, server with Node and Express, database was MongoDb and
-        images were saved to Cloudinary. Repository can be found below, right next to GitHub-title. The site itself can
-        be found here: https://love-app777.herokuapp.com/
+      <div>
+        <p>
+        <span>Features:</span> Simple Api for analyzing text. 
       </p>
+      <p>
+        <span>Stack:</span> Typescript, Node, Express, Jest, Supertest, Travis CI 
+      </p>
+      <p>
+        <span>Repo:</span> <a href="https://github.com/tikerola/dreambroker-1">analyze</a>
+      </p>
+      <p>
+        <span>Api-endpoint:</span> <a href="https://dreambroker-1.herokuapp.com/analyze">Heroku</a>
+      </p>
+      </div>
     </div>
 
     <div class="portfolio__item">
       <img src="images/guitar.png" alt="guitar-app" />
-      <p>
-        Dating site with basic features: creating and updating profiles, profile search,
-        messaging, chat etc. Frontend was created with React, server with Node and Express, database was MongoDb and
-        images were saved to Cloudinary. Repository can be found below, right next to GitHub-title. The site itself can
-        be found here: https://love-app777.herokuapp.com/
+      <div>
+        <p>
+        <span>Features:</span> guitar learning page (notes, scale degrees, scales) for aspiring guitarists. Still in progress. 
       </p>
+      <p>
+        <span>Stack:</span> React
+      </p>
+      <p>
+        <span>Repo:</span> <a href="https://github.com/tikerola/guitar">guitar</a>
+      </p>
+      <p>
+        <span>Online:</span> <a href="https://tikerola.github.io/guitar/">Github Pages</a>
+      </p>
+      </div>
     </div>
 
     <div class="portfolio__item">
       <img src="images/bus-stops.png" alt="bus-stops-app" class="border-thin" />
-      <p>
-        Dating site with basic features: creating and updating profiles, profile search,
-        messaging, chat etc. Frontend was created with React, server with Node and Express, database was MongoDb and
-        images were saved to Cloudinary. Repository can be found below, right next to GitHub-title. The site itself can
-        be found here: https://love-app777.herokuapp.com/
+      <div>
+        <p>
+        <span>Features:</span> shortest route application for four different bus lines. It used Dijkstra’s algorithm for routes.
       </p>
+      <p>
+        <span>Stack:</span> React, Canvas
+      </p>
+      <p>
+        <span>Repo:</span> <a href="https://github.com/tikerola/busstops">busstops</a>
+      </p>
+      <p>
+        <span>Online:</span> <a href="https://tikerola.github.io/busstops/">Github Pages</a>
+      </p>
+      </div>
     </div>
 
   </section>
@@ -200,7 +251,7 @@
   <div class="divider"></div>
 
   <!-- MISC -->
-  <div class="anchor" id="misc"></div>
+ <!--  <div class="anchor" id="misc"></div>
   <h2 class="section-title">Misc</h2>
   <section class="content-container">
     <div class="content-container__paragraph">
@@ -217,7 +268,7 @@
     </div>
   </section>
 
-  <div class="divider"></div>
+  <div class="divider"></div> -->
 
 </body>
 
