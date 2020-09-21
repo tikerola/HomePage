@@ -14,6 +14,42 @@ body {
 	color: #aaa;
 }
 
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+	display: none;
+}
+
+.sidebar {
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 40vw;
+	height: 100vh;
+	display: none;
+}
+
+.sidebar ul {
+	margin: 2rem auto 0 auto;
+	list-style: none;
+}
+
+.sidebar li {
+	margin-bottom: 1rem;
+}
+
+.sidebar a,
+.sidebar a:visited {
+	color: #aaa;
+}
+
 .navigation {
 	width: 100%;
 	background-image: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.5));
