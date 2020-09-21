@@ -16,12 +16,13 @@
 <body>
   <nav>
     <ul class="navigation">
-      <li><a href="#main"><i class="fas fa-home home-icon"></i></a></li>
-      <li><a href="#bio">Bio</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <span class="navigation__burger"><i class="fas fa-bars"></i></span>
+      <li class="navigation__desktop-links"><a href="#main"><i class="fas fa-home home-icon"></i></a></li>
+      <li class="navigation__desktop-links"><a href="#bio">Bio</a></li>
+      <li class="navigation__desktop-links"><a href="#experience">Experience</a></li>
+      <li class="navigation__desktop-links"><a href="#skills">Skills</a></li>
+      <li class="navigation__desktop-links"><a href="#portfolio">Portfolio</a></li>
+      <li class="navigation__desktop-links"><a href="#contact">Contact</a></li>
       <!-- <li><a href="#misc">Misc</a></li> -->
     </ul>
   </nav>
@@ -43,19 +44,21 @@
   <div class="anchor" id="main"></div>
   <h2 class="section-title">Welcome</h2>
   <section class="content-container">
-    <div class="content-container__paragraph">
+    <div class="content-container__welcome">
+      <p>
       Hello, I'm Timo and a student of business information technology at Helsinki
       business college. I'm also a junior fullstack Javascript developer looking to land a job.
-
+      </p>
 
     </div>
-    <div class="content-container__paragraph">
+    <div class="content-container__welcome">
+      <p>
       Maybe it comes with time that I learn to prefer some areas of the development process over
       the others,
       but so far I've been just enjoying the whole ride: front-end, back-end, cloud and the little devops
       I
       know. So I'm up for pretty much anything.
-
+      </p>
     </div>
   </section>
 
@@ -102,17 +105,17 @@
 
   <div class="anchor" id="experience"></div>
   <h2 class="section-title">Experience</h2>
-  <section class="content-container ml-20">
+  <section class="experience-container">
     <div>
-      <p class="experience-paragraph">
+      <p class="experience-container__paragraph">
         <span>Where:</span> Aksios Corporation Oy
       </p>
-      <p class="experience-paragraph">
+      <p class="experience-container__paragraph">
         <span>When:</span> 20.01.2020 – 20.04.2020
-        <p class="experience-paragraph">
+        <p class="experience-container__paragraph">
           <span>Role:</span> Internship as a fullstack developer with company’s Sitro.net – SaaS product.
         </p>
-        <p class="experience-paragraph">
+        <p class="experience-container__paragraph">
           <span>Stack:</span> Javascript, React, PHP and MySQL.
         </p>
       </p>
@@ -128,15 +131,15 @@
   <div class="anchor" id="skills"></div>
   <h2 class="section-title">Skills</h2>
   <h3 class="section-subtitle">Stronger Skills</h3>
-  <section class="content-container">
-    <div class="content-container__paragraph flex-col">
+  <section class="skills-container">
+    <div class="skills-container__skills flex-col">
       <div><i class="fab fa-js-square skills-icon"></i>Javascript</div>
-      <div><i class="fab fa-react icons skills-icon"></i>React</div>
+      <div><i class="fab fa-react skills-icon"></i>React</div>
       <div><i class="fab fa-node skills-icon"></i>Node</div>
       <div><i class="fab fa-html5 skills-icon"></i>HTML5</div>
       <div><i class="fab fa-css3-alt skills-icon"></i>CSS3</div>
     </div>
-    <div class="content-container__paragraph flex-col">
+    <div class="skills-container__skills flex-col">
       <div class="skills-list-item">Typescript</div>
       <div class="skills-list-item">MySQL</div>
       <div class="skills-list-item">MongoDB</div>
@@ -147,9 +150,9 @@
 
   <h3 class="section-subtitle">Weaker Skills</h3>
   <section class="content-container">
-    <div>
+    <p>
       Python, Java, Php, React Native, GraphQL, Docker, Kubernetes, Microservices, AWS, WordPress, Travis CI, Cypress, React Testing Library
-    </div>
+    </p>
 
   </section>
 
