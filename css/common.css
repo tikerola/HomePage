@@ -170,18 +170,9 @@ body {
 	flex-direction: column;
 }
 
-
-
-
-
-
-
 .border-thin {
 	border: 1px solid #333;
 }
-
-
-
 
 
 @media only screen and (max-width: 700px) {
@@ -193,17 +184,9 @@ body {
 		display: block;
 	}
 
-
-
-
-
 	.icons {
 		font-size: 2rem;
 	}
-
-
-
-
 }
 
 @media only screen and (max-width: 550px) {
@@ -224,13 +207,7 @@ body {
 		width: 90%;
 	}
 
-
-
 	.section-title {
 		width: 90%;
 	}
-
-
-
-
 }
