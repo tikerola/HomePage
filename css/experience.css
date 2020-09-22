@@ -1,0 +1,23 @@
+.experience-container {
+  margin: 1rem 0 0 20%;
+  padding: 1rem;
+  width: 70%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experience-container__paragraph span {
+  display: inline-block;
+  width: 50px;
+  color: white;
+}
+
+@media only screen and (max-width: 550px) {
+  .experience-container {
+    margin: 1rem 0 0 10%;
+    padding: 0;
+    width: 85%;
+  }
+}

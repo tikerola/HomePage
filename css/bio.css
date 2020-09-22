@@ -1,0 +1,25 @@
+.bio-image-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.bio-image-container img {
+  width: 150px;
+  height: 126px;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(1px 2px 10px gray);
+  border-radius: 10px;
+}
+
+.bio-image-container p:first-child {
+  padding: 0;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .bio-image-container {
+    display: block;
+  }
+}
