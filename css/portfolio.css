@@ -31,7 +31,7 @@
   .portfolio__item {
     display: block;
     margin: 0 auto 2rem auto;
-    padding-left: 0.5rem;
+    padding-left: 0rem;
   }
 
   .portfolio img {
@@ -55,6 +55,6 @@
 @media only screen and (max-width: 550px) {
   .portfolio img {
     width: 90%;
-    min-width: 350px;
+    min-width: 310px;
   }
 }
