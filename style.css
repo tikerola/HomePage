@@ -68,7 +68,6 @@ body {
 	font-size: 1.1rem;
 }
 
-
 .navigation__desktop-links i:first-child {
 	font-size: 1.5rem;
 	margin-right: 3rem;
@@ -157,6 +156,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	text-align: justify;
 }
 
 .experience-container {
@@ -181,7 +181,7 @@ body {
 
 .divider {
 	width: 30%;
-	margin: 1.5rem auto 20vh auto;
+	margin: 1.5rem auto 5vh auto;
 	border-bottom: 1px solid #555;
 }
 
@@ -195,7 +195,6 @@ body {
 	width: 45%;
 	color: #aaa;
 	text-align: justify;
-
 }
 
 .content-container__welcome p:first-child {
@@ -211,6 +210,7 @@ body {
 	width: 150px;
 	height: 126px;
 	margin-right: 1.5rem;
+	margin-bottom: 1rem;
 	filter: drop-shadow(1px 2px 10px gray);
 	border-radius: 10px;
 }
@@ -242,7 +242,6 @@ body {
 	width: 45%;
 	margin-right: 2rem;
 	object-fit: contain;
-
 }
 
 .portfolio__item {
@@ -285,34 +284,31 @@ body {
 	border: 1px solid #333;
 }
 
-.ml-20 {
-	margin-left: 20%;
-}
-
 .experience-container__paragraph span {
 	display: inline-block;
 	width: 50px;
 	color: white;
-
 }
 
 @media only screen and (max-width: 998px) {
 	.portfolio__item {
 		display: block;
+		margin: 0 auto 2rem auto;
+		padding-left: 0.5rem;
 	}
 
 	.portfolio img {
 		width: 70%;
+		min-width: 480px;
+		margin-right: 0;
 	}
 
 	.portfolio__item p:first-child {
 		margin-top: 1rem;
 	}
-
 }
 
 @media only screen and (max-width: 700px) {
-
 	.page-banner__title {
 		width: 80%;
 	}
@@ -347,7 +343,8 @@ body {
 	}
 
 	.portfolio img {
-		width: 85%;
+		width: 90%;
+		min-width: 400px;
 	}
 }
 
@@ -357,13 +354,12 @@ body {
 	}
 
 	.navigation__burger i {
-		display: inline
+		display: inline;
 	}
 
 	.icons-container {
 		width: 75%;
 	}
-
 
 	.content-container {
 		display: block;
@@ -385,5 +381,10 @@ body {
 
 	.section-subtitle {
 		width: 80%;
+	}
+
+	.portfolio img {
+		width: 90%;
+		min-width: 350px;
 	}
 }
