@@ -94,7 +94,7 @@ body {
 .page-banner {
 	height: 300px;
 	width: 100%;
-	background-image: url('../images/page-banner2.jpg');
+	background-image: url('../images/page-banner2-2000x1333.jpg');
 	background-position: bottom center;
 	filter: sepia(0.8);
 	background-size: cover;
@@ -176,6 +176,10 @@ body {
 
 
 @media only screen and (max-width: 700px) {
+	.page-banner {
+		background-image: url('../images/page-banner2-1000x666.jpg');
+	}
+
 	.page-banner__title {
 		width: 80%;
 	}
