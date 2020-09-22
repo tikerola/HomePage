@@ -94,7 +94,7 @@ body {
 .page-banner {
 	height: 300px;
 	width: 100%;
-	background-image: url('/images/page-banner2.jpg');
+	background-image: url('./images/page-banner2.jpg');
 	background-position: bottom center;
 	filter: sepia(0.8);
 	background-size: cover;
