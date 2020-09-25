@@ -36,20 +36,10 @@
   width: 60%;
   margin: 2rem auto;
   margin-bottom: 0;
-  color: #aaa;
+  color: #777;
+  font-variant: small-caps;
 }
 
-.javascript {
-  color: yellow;
-}
-
-.react {
-  color: mediumslateblue;
-}
-
-.node {
-  color: orange;
-}
 
 @media only screen and (max-width: 900px) {
   .skills-container {

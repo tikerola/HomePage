@@ -160,6 +160,8 @@ body {
 	margin: 2rem auto;
 	margin-bottom: 1rem;
 	color: #aaa;
+
+	font-variant: small-caps
 }
 
 .divider {
@@ -175,6 +177,12 @@ body {
 
 .border-thin {
 	border: 1px solid #333;
+}
+
+.bg-gray {
+	background-color: #333;
+	border-radius: 5px;
+	padding: 1rem;
 }
 
 
