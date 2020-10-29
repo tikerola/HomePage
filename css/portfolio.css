@@ -1,7 +1,11 @@
-.portfolio img {
+.portfolio-img {
   width: 45%;
   margin-right: 2rem;
   object-fit: contain;
+}
+
+.portfolio__tunne-image {
+  width: 45%;
 }
 
 .portfolio__item {
@@ -9,6 +13,21 @@
   flex-direction: row;
   margin-bottom: 2rem;
   text-align: left;
+}
+
+.portfolio__tunne-images-container {
+  width: 47%;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.portfolio__tunne-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .portfolio__item p:first-child {
@@ -35,7 +54,8 @@
     padding-left: 0rem;
   }
 
-  .portfolio img {
+  .portfolio__tunne-images-container,
+  .portfolio-img {
     width: 70%;
     min-width: 480px;
     margin-right: 0;
@@ -47,14 +67,16 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .portfolio img {
+  .portfolio__tunne-images-container,
+  .portfolio-img {
     width: 90%;
     min-width: 400px;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  .portfolio img {
+  .portfolio__tunne-images-container,
+  .portfolio-img {
     width: 90%;
     min-width: 310px;
   }
